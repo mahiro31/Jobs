@@ -702,6 +702,749 @@ Builder:
       income: 1.5
       points: 1.5
       experience: 2
+
+    # --- 1.12追加: コンクリート & パウダー (各16色) ---
+    # white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black
+    white_concrete:
+        income: 0.5
+        points: 0.5
+        experience: 0.5
+    orange_concrete:
+        income: 0.5
+        points: 0.5
+        experience: 0.5
+    magenta_concrete:
+        income: 0.5
+        points: 0.5
+        experience: 0.5
+    light_blue_concrete:
+        income: 0.5
+        points: 0.5
+        experience: 0.5
+    yellow_concrete:
+        income: 0.5
+        points: 0.5
+        experience: 0.5
+    lime_concrete:
+        income: 0.5
+        points: 0.5
+        experience: 0.5
+    pink_concrete:
+        income: 0.5
+        points: 0.5
+        experience: 0.5
+    gray_concrete:
+        income: 0.5
+        points: 0.5
+        experience: 0.5
+    light_gray_concrete:
+        income: 0.5
+        points: 0.5
+        experience: 0.5
+        experience: 0.3
+    cyan_concrete:
+        income: 0.5
+        points: 0.5
+        experience: 0.5
+    purple_concrete:
+        income: 0.5
+        points: 0.5
+        experience: 0.5
+    blue_concrete:
+        income: 0.5
+        points: 0.5
+        experience: 0.5
+    brown_concrete:
+        income: 0.5
+        points: 0.5
+        experience: 0.5
+        experience: 0.3
+    green_concrete:
+        income: 0.5
+        points: 0.5
+        experience: 0.5
+    red_concrete:
+        income: 0.5
+        points: 0.5
+        experience: 0.5
+    black_concrete:
+        income: 0.5
+        points: 0.5
+        experience: 0.5
+#    white_concrete_powder:
+#        income: 0.3
+#        points: 0.3
+#    orange_concrete_powder:
+#        income: 0.3
+#        points: 0.3
+#        experience: 0.3
+#        experience: 0.3
+#    magenta_concrete_powder:
+#        income: 0.3
+#        points: 0.3
+#        experience: 0.3
+#    light_blue_concrete_powder:
+#        income: 0.3
+#        points: 0.3
+#        experience: 0.3
+#    yellow_concrete_powder:
+#        income: 0.3
+#        points: 0.3
+#        experience: 0.3
+#    lime_concrete_powder:
+#        income: 0.3
+#        points: 0.3
+#        experience: 0.3
+#    pink_concrete_powder:
+#        income: 0.3
+#        points: 0.3
+#        experience: 0.3
+#    gray_concrete_powder:
+#        income: 0.3
+#        points: 0.3
+#        experience: 0.3
+#    light_gray_concrete_powder:
+#        income: 0.3
+#        points: 0.3
+#    cyan_concrete_powder:
+#        income: 0.3
+#        points: 0.3
+#        experience: 0.3
+#    purple_concrete_powder:
+#        income: 0.3
+#        points: 0.3
+#        experience: 0.3
+#    blue_concrete_powder:
+#        income: 0.3
+#        points: 0.3
+#        experience: 0.3
+#    brown_concrete_powder:
+#        income: 0.3
+#        points: 0.3
+#    green_concrete_powder:
+#        income: 0.3
+#        points: 0.3
+#        experience: 0.3
+#    red_concrete_powder:
+#        income: 0.3
+#        points: 0.3
+#        experience: 0.3
+#    black_concrete_powder:
+#        income: 0.3
+#        points: 0.3
+#        experience: 0.3
+
+    # --- 1.13 - 1.21: 木材バリエーション (ハーフブロック・階段含む) ---
+    # 種類: crimson, warped, cherry, bamboo, pale_oak
+    stripped_cherry_planks:
+        income: 0.4
+        points: 0.4
+        experience: 0.4
+    stripped_cherry_stairs:
+        income: 0.4
+        points: 0.4
+        experience: 0.4
+    stripped_cherry_slab:
+        income: 0.2
+        points: 0.2
+        experience: 0.2
+    bamboo_planks:
+        income: 0.4
+        points: 0.4
+        experience: 0.4
+    bamboo_stairs:
+        income: 0.4
+        points: 0.4
+        experience: 0.4
+    bamboo_slab:
+        income: 0.2
+        points: 0.2
+        experience: 0.2
+    bamboo_mosaic:
+        income: 0.5
+        points: 0.5
+        experience: 0.5
+    pale_oak_planks:
+        income: 0.4
+        points: 0.4
+        experience: 0.4
+    pale_oak_stairs:
+        income: 0.4
+        points: 0.4
+        experience: 0.4
+    pale_oak_slab:
+        income: 0.2
+        points: 0.2
+        experience: 0.2
+    crimson_planks:
+        income: 0.5
+        points: 0.5
+        experience: 0.5
+    crimson_stairs:
+        income: 0.5
+        points: 0.5
+        experience: 0.5
+    crimson_slab:
+        income: 0.25
+        points: 0.25
+        experience: 0.25
+    warped_planks:
+        income: 0.5
+        points: 0.5
+        experience: 0.5
+    warped_stairs:
+        income: 0.5
+        points: 0.5
+        experience: 0.5
+    warped_slab:
+        income: 0.25
+        points: 0.25
+        experience: 0.25
+
+    # --- マングローブの加工品 (ハーフブロック・階段) ---
+    mangrove_planks:
+        income: 0.4
+        points: 0.4
+        experience: 0.4
+    mangrove_stairs:
+        income: 0.4
+        points: 0.4
+        experience: 0.4
+    mangrove_slab:
+        income: 0.2
+        points: 0.2
+        experience: 0.2
+
+
+    # --- 1.17追加: 方解石 (Calcite) ---
+    calcite:
+      income: 0.6
+      points: 0.6
+      experience: 0.6
+
+    # --- 砂岩 (sandstone) ---
+    sandstone_slab:
+      income: 1.5
+      points: 1.5
+      experience: 2
+    sandstone_stairs:
+      income: 1.5
+      points: 1.5
+      experience: 2
+    cut_sandstone:
+      income: 1.5
+      points: 1.5
+      experience: 2
+    cut_sandstone_slab:
+      income: 1.5
+      points: 1.5
+      experience: 2
+
+
+    # --- 1.16追加: ブラックストーン系 ---
+    blackstone:
+      income: 0.4
+      points: 0.4
+      experience: 0.4
+    chiseled_polished_blackstone:
+      income: 1.2
+      points: 1.2
+      experience: 1.2
+
+    # --- 1.17 - 1.21: 石材・石レンガ系 (深層岩・凝灰岩) ---
+    cobbled_deepslate:
+        income: 0.5
+        points: 0.5
+        experience: 0.5
+    cobbled_deepslate_stairs:
+        income: 0.5
+        points: 0.5
+        experience: 0.5
+    cobbled_deepslate_slab:
+        income: 0.25
+        points: 0.25
+        experience: 0.25
+    deepslate_bricks:
+        income: 0.6
+        points: 0.6
+        experience: 0.6
+    deepslate_brick_stairs:
+        income: 0.6
+        points: 0.6
+        experience: 0.6
+    deepslate_brick_slab:
+        income: 0.3
+        points: 0.3
+        experience: 0.3
+    deepslate_tiles:
+        income: 0.8
+        points: 0.8
+        experience: 0.8
+    deepslate_tile_stairs:
+        income: 0.8
+        points: 0.8
+        experience: 0.8
+    deepslate_tile_slab:
+        income: 0.4
+        points: 0.4
+        experience: 0.4
+    deepslate_bricks:
+        income: 0.8
+        points: 0.8
+        experience: 0.8
+    deepslate_brick_stairs:
+        income: 0.8
+        points: 0.8
+        experience: 0.8
+    deepslate_brick_slab:
+        income: 0.4
+        points: 0.4
+        experience: 0.4
+    chiseled_deepslate:
+        income: 1.0
+        points: 1.0
+        experience: 1.0
+    cracked_deepslate_bricks:
+        income: 0.9
+        points: 0.9
+        experience: 0.9
+    cracked_deepslate_tiles:
+        income: 0.9
+        points: 0.9
+        experience: 0.9
+    polished_deepslate:
+        income: 0.5
+        points: 0.5
+        experience: 0.5
+    polished_deepslate_stairs:
+        income: 0.5
+        points: 0.5
+        experience: 0.5
+    polished_deepslate_slab:
+        income: 0.25
+        points: 0.25
+        experience: 0.25
+    tuff: 
+        income: 0.4
+        points: 0.4
+        experience: 0.4
+    tuff_stairs: 
+        income: 0.4
+        points: 0.4
+        experience: 0.4
+    tuff_slab:
+        income: 0.2
+        points: 0.2
+        experience: 0.2
+    tuff_bricks:
+        income: 0.6
+        points: 0.6
+        experience: 0.6
+    tuff_brick_stairs:
+        income: 0.6
+        points: 0.6
+        experience: 0.6
+    tuff_brick_slab:
+        income: 0.3
+        points: 0.3
+        experience: 0.3
+
+    # --- 1.10追加: 赤いネザーレンガ ---
+    red_nether_bricks:
+      income: 0.7
+      points: 0.7
+      experience: 0.7
+    red_nether_brick_stairs:
+      income: 0.7
+      points: 0.7
+      experience: 0.7
+    red_nether_brick_slab:
+      income: 0.35
+      points: 0.35
+      experience: 0.35
+
+    # --- 1.19追加: 泥レンガ系 ---
+    mud_bricks:
+      income: 0.6
+      points: 0.6
+      experience: 0.6
+    mud_brick_stairs:
+      income: 0.6
+      points: 0.6
+      experience: 0.6
+    mud_brick_slab:
+      income: 0.3
+      points: 0.3
+      experience: 0.3
+
+    # --- 銅ブロック (通常・露出・風化・酸化) ---
+    copper_block:
+        income: 1.0
+        points: 1.0
+        experience: 1.0
+    exposed_copper:
+        income: 1.0
+        points: 1.0
+        experience: 1.0
+    weathered_copper:
+        income: 1.0
+        points: 1.0
+        experience: 1.0
+    oxidized_copper:
+        income: 1.0
+        points: 1.0
+        experience: 1.0
+
+    # --- 錆止め済み (Waxed) 銅ブロック ---
+    waxed_copper_block:
+        income: 1.2
+        points: 1.2
+        experience: 1.2
+    waxed_exposed_copper:
+        income: 1.2
+        points: 1.2
+        experience: 1.2
+    waxed_weathered_copper:
+        income: 1.2
+        points: 1.2
+        experience: 1.2
+    waxed_oxidized_copper:
+        income: 1.2
+        points: 1.2
+        experience: 1.2
+
+    # --- 切り込み入りの銅 (Cut Copper) & 錆止め ---
+    cut_copper:
+        income: 1.2
+        points: 1.2
+        experience: 1.2
+    exposed_cut_copper:
+        income: 1.2
+        points: 1.2
+        experience: 1.2
+    weathered_cut_copper:
+        income: 1.2
+        points: 1.2
+        experience: 1.2
+    oxidized_cut_copper:
+        income: 1.2
+        points: 1.2
+        experience: 1.2
+    waxed_cut_copper:
+        income: 1.4
+        points: 1.4
+        experience: 1.4
+    waxed_exposed_cut_copper:
+        income: 1.4
+        points: 1.4
+        experience: 1.4
+    waxed_weathered_cut_copper:
+        income: 1.4
+        points: 1.4
+        experience: 1.4
+    waxed_oxidized_cut_copper:
+        income: 1.4
+        points: 1.4
+        experience: 1.4
+
+    # --- 銅の階段 (Stairs) ---
+    cut_copper_stairs:
+        income: 1.2
+        points: 1.2
+        experience: 1.2
+    exposed_cut_copper_stairs:
+        income: 1.2
+        points: 1.2
+        experience: 1.2
+    weathered_cut_copper_stairs:
+        income: 1.2
+        points: 1.2
+        experience: 1.2
+    oxidized_cut_copper_stairs:
+        income: 1.2
+        points: 1.2
+        experience: 1.2
+    waxed_cut_copper_stairs:
+        income: 1.4
+        points: 1.4
+        experience: 1.4
+    waxed_exposed_cut_copper_stairs:
+        income: 1.4
+        points: 1.4
+        experience: 1.4
+    waxed_weathered_cut_copper_stairs:
+        income: 1.4
+        points: 1.4
+        experience: 1.4
+    waxed_oxidized_cut_copper_stairs:
+        income: 1.4
+        points: 1.4
+        experience: 1.4
+
+    # --- 銅のハーフブロック (Slab) ---
+    cut_copper_slab:
+        income: 0.6
+        points: 0.6
+        experience: 0.6
+    exposed_cut_copper_slab:
+        income: 0.6
+        points: 0.6
+        experience: 0.6
+    weathered_cut_copper_slab:
+        income: 0.6
+        points: 0.6
+        experience: 0.6
+    oxidized_cut_copper_slab:
+        income: 0.6
+        points: 0.6
+        experience: 0.6
+    waxed_cut_copper_slab:
+        income: 0.7
+        points: 0.7
+        experience: 0.7
+    waxed_exposed_cut_copper_slab:
+        income: 0.7
+        points: 0.7
+        experience: 0.7
+    waxed_weathered_cut_copper_slab:
+        income: 0.7
+        points: 0.7
+        experience: 0.7
+    waxed_oxidized_cut_copper_slab:
+        income: 0.7
+        points: 0.7
+        experience: 0.7
+
+    # --- 1.21 新要素: 銅の格子 (Grate) & 模様入り (Chiseled) ---
+    copper_grate:
+        income: 1.5
+        points: 1.5
+        experience: 1.5
+    waxed_copper_grate:
+        income: 1.7
+        points: 1.7
+        experience: 1.7
+    chiseled_copper:
+        income: 1.8
+        points: 1.8
+        experience: 1.8
+    waxed_chiseled_copper:
+        income: 2.0
+        points: 2.0
+        experience: 2.0
+
+    # --- 1.21追加: 銅の電球 (Copper Bulb) ---
+    copper_bulb:
+        income: 2.5
+        points: 2.5
+        experience: 2.5
+    exposed_copper_bulb:
+        income: 2.5
+        points: 2.5
+        experience: 2.5
+    weathered_copper_bulb:
+        income: 2.5
+        points: 2.5
+        experience: 2.5
+    oxidized_copper_bulb:
+        income: 2.5
+        points: 2.5
+        experience: 2.5
+
+    # --- 1.21追加: 錆止め済み 銅の電球 (Waxed Copper Bulb) ---
+    waxed_copper_bulb:
+        income: 2.8
+        points: 2.8
+        experience: 2.8
+    waxed_exposed_copper_bulb:
+        income: 2.8
+        points: 2.8
+        experience: 2.8
+    waxed_weathered_copper_bulb:
+        income: 2.8
+        points: 2.8
+        experience: 2.8
+    waxed_oxidized_copper_bulb:
+        income: 2.8
+        points: 2.8
+        experience: 2.8
+
+    # --- 光源 (Light) ---
+    pearlescent_froglight:
+        income: 3.5
+        points: 3.5
+        experience: 3.5
+    verdant_froglight:
+        income: 3.5
+        points: 3.5
+        experience: 3.5
+    ochre_froglight:
+        income: 3.5
+        points: 3.5
+        experience: 3.5
+    shroomlight:
+        income: 1.5
+        points: 1.5
+        experience: 1.5
+
+    # --- なめらかな(Smooth) ---
+    smooth_stone:
+        income: 0.8
+        points: 0.8
+        experience: 0.8
+    smooth_stone_slab:
+        income: 0.4
+        points: 0.4
+        experience: 0.4
+    smooth_sandstone:
+        income: 0.7
+        points: 0.7
+        experience: 0.7
+    smooth_sandstone_stairs:
+        income: 0.7
+        points: 0.7
+        experience: 0.7
+    smooth_sandstone_slab:
+        income: 0.35
+        points: 0.35
+        experience: 0.35
+    smooth_red_sandstone:
+        income: 0.7
+        points: 0.7
+        experience: 0.7
+    smooth_red_sandstone_stairs:
+        income: 0.7
+        points: 0.7
+        experience: 0.7
+    smooth_red_sandstone_slab:
+        income: 0.35
+        points: 0.35
+        experience: 0.35
+    smooth_quartz:
+        income: 1.5
+        points: 1.5
+        experience: 1.5
+    smooth_quartz_stairs:
+        income: 1.5
+        points: 1.5
+        experience: 1.5
+    smooth_quartz_slab:
+        income: 0.75
+        points: 0.75
+        experience: 0.75
+    smooth_basalt:
+        income: 0.6
+        points: 0.6
+        experience: 0.6
+
+    # --- 磨かれた(Polished) ---
+    polished_andesite:
+        income: 0.5
+        points: 0.5
+        experience: 0.5
+    polished_andesite_stairs:
+        income: 0.5
+        points: 0.5
+        experience: 0.5
+    polished_andesite_slab:
+        income: 0.25
+        points: 0.25
+        experience: 0.25
+    polished_diorite:
+        income: 0.5
+        points: 0.5
+        experience: 0.5
+    polished_diorite_stairs:
+        income: 0.5
+        points: 0.5
+        experience: 0.5
+    polished_diorite_slab:
+        income: 0.25
+        points: 0.25
+        experience: 0.25
+    polished_granite:
+        income: 0.5
+        points: 0.5
+        experience: 0.5
+    polished_granite_stairs:
+        income: 0.5
+        points: 0.5
+        experience: 0.5
+    polished_granite_slab:
+        income: 0.25
+        points: 0.25
+        experience: 0.25
+    polished_blackstone:
+        income: 0.6
+        points: 0.6
+        experience: 0.6
+    polished_blackstone_stairs:
+        income: 0.6
+        points: 0.6
+        experience: 0.6
+    polished_blackstone_slab:
+        income: 0.3
+        points: 0.3
+        experience: 0.3
+    polished_blackstone_bricks:
+        income: 0.7
+        points: 0.7
+        experience: 0.7
+    polished_blackstone_brick_stairs:
+        income: 0.7
+        points: 0.7
+        experience: 0.7
+    polished_blackstone_brick_slab:
+        income: 0.35
+        points: 0.35
+        experience: 0.35
+    polished_deepslate:
+        income: 0.6
+        points: 0.6
+        experience: 0.6
+    polished_deepslate_stairs:
+        income: 0.6
+        points: 0.6
+        experience: 0.6
+    polished_deepslate_slab:
+        income: 0.3
+        points: 0.3
+        experience: 0.3
+    polished_tuff:
+        income: 0.7
+        points: 0.7
+        experience: 0.7
+    polished_tuff_stairs:
+        income: 0.7
+        points: 0.7
+        experience: 0.7
+    polished_tuff_slab:
+        income: 0.35
+        points: 0.35
+        experience: 0.35
+    polished_basalt:
+        income: 0.6
+        points: 0.6
+        experience: 0.6
+
+    # --- 1.21.4追加: 樹脂 (Resin) 系 ---
+    resin_bricks:
+      income: 0.8
+      points: 0.8
+      experience: 0.8
+    resin_brick_stairs:
+      income: 0.8
+      points: 0.8
+      experience: 0.8
+    resin_brick_slab:
+      income: 0.4
+      points: 0.4
+      experience: 0.4
+    chiseled_resin_bricks:
+      income: 1.2
+      points: 1.2
+      experience: 1.2
+
   Kill:
     Player:
       income: 7.5
